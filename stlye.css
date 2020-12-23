@@ -4,12 +4,24 @@ body{
     padding-top: 80px;
     font-family:cursive;
     text-align: center;
+    background-color: #27ae60;
+    color:#FFFFFF;
     
 }
 .profile{
     border-radius: 50%;
     margin-bottom: 50px;
     width: 175px;
+    color: #ffffff;
+    
+}
+
+
+.paralax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
 }
 #welcome{
     left:0;
@@ -37,9 +49,26 @@ body{
 
 .links {
     float: left;
-    color:darkblue;
+    color:darkcyan;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
 
+}
+.line {
+    height: 6px;
+    background-color: #ffffff;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.links:hover {background-color: lawngreen; }
+
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: lawngreen;
 }
